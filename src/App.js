@@ -5,7 +5,9 @@ import "./App.css";
 const App = props => (
   <div className="App">
     <header className="App-header">
-      <h4>Babyfoot Score !</h4>
+      <h4>
+        Babyfoot Score ! <span className="version">V 1.0</span>
+      </h4>
       <img src={logo} className="App-logo" alt="logo" />
       <div>
         <table>
