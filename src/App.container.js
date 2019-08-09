@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import App from "./App";
 
 const EnhancedApp = () => {
-  const [saison, updateSaison] = useState({ Antoine: 2, Cristofer: 1 });
+  const [saison, updateSaison] = useState({ Antoine: 3, Cristofer: 1 });
   const [currentMatch, updateCurrentMatch] = useState({
     Antoine: 0,
     Cristofer: 1
