@@ -6,7 +6,7 @@ const EnhancedApp = () => {
   const [saison, updateSaison] = useState({ Antoine: 3, Cristofer: 1 });
   const [currentMatch, updateCurrentMatch] = useState({
     Antoine: 1,
-    Cristofer: 0
+    Cristofer: 3
   });
   const [players, updatePlayers] = useState(["Antoine", "Cristofer"]);
 
