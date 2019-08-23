@@ -3,10 +3,10 @@ import React, { useState } from "react";
 import App from "./App";
 
 const EnhancedApp = () => {
-  const [saison, updateSaison] = useState({ Antoine: 3, Cristofer: 1 });
+  const [saison, updateSaison] = useState({ Antoine: 3, Cristofer: 2 });
   const [currentMatch, updateCurrentMatch] = useState({
     Antoine: 1,
-    Cristofer: 4
+    Cristofer: 6
   });
   const [players, updatePlayers] = useState(["Antoine", "Cristofer"]);
 
