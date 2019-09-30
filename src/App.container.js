@@ -5,7 +5,7 @@ import App from "./App";
 const EnhancedApp = () => {
   const [saison, updateSaison] = useState({ Antoine: 10000, Cristofer: 0 });
   const [currentMatch, updateCurrentMatch] = useState({
-    Antoine: ∞,
+    Antoine: "∞",
     Cristofer: 0
   });
   const [players, updatePlayers] = useState(["Antoine", "Cristofer"]);
