@@ -27,7 +27,7 @@ const App = props => (
                 }}
                 scope="col"
               >
-                Current saison victories
+                Current season victories
               </th>
               <th
                 style={{ paddingLeft: "50px", paddingBottom: "20px" }}
