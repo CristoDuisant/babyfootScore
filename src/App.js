@@ -33,7 +33,7 @@ const App = props => (
                 style={{ paddingLeft: "50px", paddingBottom: "20px" }}
                 scope="col"
               >
-                Saisons Win
+                Saisons Wins
               </th>
             </tr>
 
